@@ -12,6 +12,6 @@ services:
     command:
       - "--local"
     environment:
-      - TELEGRAM_API_ID=yourApiID
-      - TELEGRAM_API_HASH=yourApiHash
+      - TELEGRAM_API_ID=12897895
+      - TELEGRAM_API_HASH=66009ef52a2da9cea6a7015e59b556ca
     image: ghcr.io/lukaszraczylo/tdlib-telegram-bot-api-docker/telegram-api-server
